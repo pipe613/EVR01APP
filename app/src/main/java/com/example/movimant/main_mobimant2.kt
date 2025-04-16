@@ -3,7 +3,7 @@ package com.example.movimant
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.movimant.databinding.ActivityMainMobimant2Binding  // Importa la clase de binding
+import com.example.movimant.databinding.ActivityMainMobimant2Binding
 
 class main_mobimant2 : AppCompatActivity() {
 
@@ -15,9 +15,7 @@ class main_mobimant2 : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btnRegistro.setOnClickListener {
-            // TODO: Add login validation logic here (if needed)
-            // After successful login (or if no login is required):
-            startActivity(Intent(this, MainActivity::class.java))  // Use the correct Activity name
+            startActivity(Intent(this, MainActivity::class.java))
         }
     }
 }

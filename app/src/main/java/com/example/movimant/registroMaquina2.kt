@@ -16,8 +16,7 @@ class registroMaquina2 : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btnRegistro.setOnClickListener {
-            // TODO: Add login validation logic here (if needed)
-            // After successful login (or if no login is required):
+
             startActivity(Intent(this, muestra_maquinas2::class.java))
         }
 

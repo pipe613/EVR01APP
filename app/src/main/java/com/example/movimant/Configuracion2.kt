@@ -3,7 +3,7 @@ package com.example.movimant
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.movimant.databinding.ActivityConfiguracion2Binding  // Importa la clase de binding
+import com.example.movimant.databinding.ActivityConfiguracion2Binding
 
 class Configuracion2 : AppCompatActivity() {
 
@@ -15,7 +15,7 @@ class Configuracion2 : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btnVolver.setOnClickListener {
-            startActivity(Intent(this, muestra_maquinas2::class.java))  // Use the correct Activity name
+            startActivity(Intent(this, muestra_maquinas2::class.java))
         }
 
     }

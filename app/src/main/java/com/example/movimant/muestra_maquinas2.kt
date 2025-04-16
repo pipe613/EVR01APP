@@ -15,19 +15,16 @@ class muestra_maquinas2 : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btnBackHome.setOnClickListener {
-            // TODO: Add login validation logic here (if needed)
-            // After successful login (or if no login is required):
-            startActivity(Intent(this, MainActivity::class.java))  // Use the correct Activity name
+
+            startActivity(Intent(this, MainActivity::class.java))
         }
         binding.agregarMaquina.setOnClickListener {
-            // TODO: Add login validation logic here (if needed)
-            // After successful login (or if no login is required):
-            startActivity(Intent(this, registroMaquina2::class.java))  // Use the correct Activity name
+
+            startActivity(Intent(this, registroMaquina2::class.java))
         }
         binding.btnVerPerfil.setOnClickListener {
-            // TODO: Add login validation logic here (if needed)
-            // After successful login (or if no login is required):
-            startActivity(Intent(this, Configuracion2::class.java))  // Use the correct Activity name
+
+            startActivity(Intent(this, Configuracion2::class.java))
         }
     }
 }
